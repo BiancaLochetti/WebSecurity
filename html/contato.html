@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/estilosContato.css">
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3686/3686054.png">
+        <title>Web Security</title>
+    </head>
+    <body>
+        <section>
+            <div class="titlediv">
+                <h1>Entrar em contato</h1>
+            </div>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <div class="infoDiv">
+                    <div class="formItem">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira o nome">
+                    </div>
+                    <div class="formItem">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Insira o email">
+                    </div>
+                </div>
+                <div class="formItem">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea id="mensagem" cols="30" rows="18" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <div class="formItem btn-case">
+                    <a href="../index.html">Voltar</a>
+                    <button type="submit" value="Enviar" onclick="abrir()">Enviar</button>
+                    <input type="hidden" name="accessKey" value="145b5a6f-70ed-4990-8554-5163cb9d7d80">
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

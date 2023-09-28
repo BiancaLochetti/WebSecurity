@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: rgb(147, 147, 201);
+}
+
+section{
+    position: absolute;
+    left : 50%;
+    top: 50%;
+    border-radius: 10px 10px 5px 5px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(62, 62, 88);
+}
+
+.titlediv{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid rgb(147, 147, 201);
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+}
+
+.formItem{
+    display: grid;
+    margin-bottom: 5px;
+}
+
+.formItem label{
+    color: white;
+    display: none;
+}
+
+.formItem input{
+    width: 23vw;
+    margin-inline: 1rem;
+    outline: none;
+    padding: 5px;
+    border:0;
+    border-bottom: 1px solid rgb(147, 147, 201);
+    background-color: rgb(62, 62, 88);
+    color: white;
+    transition: all 0.2s;
+}
+
+.formItem input::placeholder{
+    color: rgb(219, 218, 218);
+}
+
+.formItem input:hover{
+    padding-left: 7px;
+    border-color: #ffffff;
+}
+
+.formItem input:focus{
+    padding-left: 10px;
+    border-color: #ffffff;
+}
+
+.formItem textarea{
+    resize: none;
+    outline: none;
+    margin-inline: 2rem;
+    background-color: rgb(62, 62, 88);
+    padding: 5px;
+    border:1px solid rgb(147, 147, 201);
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+.formItem textarea::placeholder{
+    color: rgb(219, 218, 218);
+}
+
+.formItem textarea:hover{
+    padding-left: 7px;
+    border-color: #ffffff;
+}
+
+.formItem textarea:focus{
+    padding-left: 10px;
+    border-color: #ffffff;
+}
+.btn-case{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.btn-case a{
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid rgb(147, 147, 201);
+    color: white;
+    background-color: rgb(62, 62, 88);
+    cursor:pointer;
+
+    scale: 1;
+    transition: all 0.2s;
+}
+.btn-case a:hover{
+    scale: 1.1;
+}
+
+.formItem button{
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(62, 62, 88);
+    cursor:pointer;
+
+    scale: 1;
+    transition: all 0.2s;
+}
+
+.formItem button:hover{
+    scale: 1.1;
+}
