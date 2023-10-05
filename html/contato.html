@@ -13,24 +13,26 @@
                 <h1>Entrar em contato</h1>
             </div>
             <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="145b5a6f-70ed-4990-8554-5163cb9d7d80">
                 <div class="infoDiv">
                     <div class="formItem">
                         <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira o nome">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira o nome" required autocomplete="off">
                     </div>
                     <div class="formItem">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Insira o email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Insira o email"required autocomplete="off" >
                     </div>
                 </div>
                 <div class="formItem">
                     <label for="mensagem" class="form-label">Mensagem</label>
-                    <textarea id="mensagem" cols="30" rows="18" placeholder="Digite sua mensagem"></textarea>
+                    <textarea id="mensagem" cols="30" rows="18" placeholder="Digite sua mensagem" required></textarea>
                 </div>
                 <div class="formItem btn-case">
                     <a href="../index.html">Voltar</a>
                     <button type="submit" value="Enviar" onclick="abrir()">Enviar</button>
-                    <input type="hidden" name="accessKey" value="145b5a6f-70ed-4990-8554-5163cb9d7d80">
+                    
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html/obg.html">
                 </div>
             </form>
         </section>
