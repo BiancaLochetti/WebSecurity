@@ -12,8 +12,7 @@
             <div class="titlediv">
                 <h1>Entrar em contato</h1>
             </div>
-            <!--troca de api-->
-            <form action="https://api.staticforms.xyz/submit" method="post">
+            <form action="https://formsubmit.co/lochetti.bianca@aluno.ifsp.edu.br" method="POST">
                 <div class="infoDiv">
                     <div class="formItem">
                         <label for="nome" class="form-label">Nome</label>
@@ -26,14 +25,13 @@
                 </div>
                 <div class="formItem">
                     <label for="mensagem" class="form-label">Mensagem</label>
-                    <textarea id="mensagem" cols="20" rows="15" placeholder="Digite sua mensagem" required></textarea>
+                    <textarea id="mensagem" name="message" cols="20" rows="15" placeholder="Digite sua mensagem" required></textarea>
                 </div>
                 <div class="formItem btn-case">
                     <a href="../index.html">Voltar</a>
-                    <button type="submit"><a href="obg.html">Enviar</a></button>
-                    
-                    <input type="hidden" name="redirectTo" value="contato.html/html/obg.html">
-                    <input type="hidden" name="accessKey" value="145b5a6f-70ed-4990-8554-5163cb9d7d80">
+                    <button type="submit">Enviar</a></button>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://web-security-pi.vercel.app/html/obg.html">            
                 </div>
             </form>
         </section>
