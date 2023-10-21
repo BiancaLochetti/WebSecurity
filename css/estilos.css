@@ -29,7 +29,7 @@ a{
 
 a:hover{
     color:rgb(82, 73, 133);
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .logo{
@@ -40,12 +40,14 @@ a:hover{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 7rem;
+    padding-left: 7rem;
     align-items: center;
     background: #23232e;
     height: 8vh;
+    
 }
-
 
 
 .nav-list{
@@ -72,10 +74,22 @@ nav{
     margin: 8px;
 }
 
+
 @media (max-width:999px){
 
     body{
         overflow-x: hidden;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        align-items: center;
+        background: #23232e;
+        height: 8vh;
+        
     }
 
     .nav-list{
@@ -232,6 +246,7 @@ main{
   
 
 @media (max-width: 768px) {
+
     .main {
       flex-direction: column;
       text-align: center;
