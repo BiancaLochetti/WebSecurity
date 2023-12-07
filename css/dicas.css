@@ -204,11 +204,15 @@ p {
     /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
 }
 
-/* Estilos para diferentes larguras de tela */
+
 @media (max-width: 768px) {
+    
     main {
+  
         flex-direction: column;
-    }
+        text-align: center;
+      }
+    
 
     .tip {
         margin: 1rem 0;
