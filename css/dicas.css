@@ -195,12 +195,13 @@ p {
 
 .container_tips1 {
     text-align: right;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
+   
 }
 
 .container_tips2 {
     text-align: left;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);*/
 }
 
 /* Estilos para diferentes larguras de tela */
